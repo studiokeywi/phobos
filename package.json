@@ -1,0 +1,19 @@
+{
+  "name": "@studiokeywi/phobos",
+  "version": "0.0.1",
+  "description": "Svelte Component Testing assistance for Luna",
+  "keywords": [],
+  "author": "studioKeywi <dev@studiokeywi.dev> (https://studiokeywi.dev)",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "scripts": {
+    "test": "npx luna test -s test/**.svelte",
+    "test:mutation": "npx stryker run"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^5.2.3",
+    "jsdoc-to-markdown": "^7.0.1",
+    "luna-testing": "^1.7.0"
+  }
+}
